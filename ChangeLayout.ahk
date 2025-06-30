@@ -3,4 +3,5 @@
 #UseHook
 #Requires AutoHotkey v2
 
-F13::SendInput "{LWin down}{Space down}{Space up}{LWin up}"
+F13::PostMessage 0x50, 0, 0xfffffffff0c20409, , "A" 
+F14::PostMessage 0x50, 0, 0xfffffffff0c10419, , "A" 
